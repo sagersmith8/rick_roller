@@ -7,7 +7,7 @@ vendor.add('lib')
 import bottle
 import json
 from bottle import route, post, template, error, request, response
-from models import get_silly_data, get_beer_list, Beer, get_rick_rolls_list, RickRoll
+from models import get_rick_rolls_list, RickRoll
 from core import respond
 from google.appengine.ext.webapp.util import run_wsgi_app
 

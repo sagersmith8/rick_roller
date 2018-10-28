@@ -1,5 +1,5 @@
-application: rick-roller
-version: 1
+#application: rickroller-220821
+#version: 1
 runtime: python27
 api_version: 1
 threadsafe: false
