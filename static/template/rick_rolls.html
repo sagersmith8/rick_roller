@@ -1,0 +1,32 @@
+{%extends "base.html"%}
+
+{%block title%}Rick Rolls{%endblock%}
+
+
+{% block extrastyle %}
+
+{% endblock %}
+
+{%block body%}
+<div id="title">
+    <h1>
+        {{count}} have been rick rolled by me
+    </h1>
+    <hr>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+<br>
+<br>
+<div>
+    <h1>
+       All of the IPs I have tricked
+    </h1>
+    <hr>
+</div>
+{% for val in data %}
+<div>
+    <h2>{{val.ip}}</h2>
+</div>
+{% endfor %}
+<br><br>
+{%endblock%}
