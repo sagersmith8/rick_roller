@@ -1,5 +1,5 @@
 # rick_roller
-Notifies people they with the nth person to get rick rolled, then redirects them to the rick roll video
+Notifies people that they are the nth person to get rick rolled, then redirects them to the rick roll video
 
 
 This is a simple GAE starter to show how easy it is to get a server running on App Engine, so you can focus on client-side aspects of your project.
